@@ -32,14 +32,14 @@ else:
   
   print("")
   print(">>> Starting game in 3...")
-  time.sleep(5)
+  time.sleep(3)
   print(">>> 2...")
-  time.sleep(5)
+  time.sleep(3)
   print(">>> 1...")
-  time.sleep(5)
+  time.sleep(3)
   print("")
   
-  allocatedTime = random.randint(5,20) #A random value representing the number of seconds before the bomb explodes...
+  allocatedTime = random.randint(10,30) #A random value representing the number of seconds before the bomb explodes...
   #The clock is ticking
   startTime=time.time()
   currentPlayer = ""
